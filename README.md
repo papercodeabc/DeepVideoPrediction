@@ -1,6 +1,6 @@
 # code of DeepVideoPrediction
 This repository is about experiments of DynamicMNIST (Section 4.1 in main manuscript)
-Two STMoE models are shown described in 3.2. 
+Two STMoE models are shown described in Section 3.2. 
 
 ## 1. requirement  
 tensorflow-gpu 1.13.1
@@ -32,7 +32,7 @@ python STMoE-2_train.py --training all
 ```
 
 ## 4. test
-Test notebook are [STMoE-1](https://github.com/papercodeabc/STMoE/blob/main/STMoE-1_test.ipynb) and [STMoE-2](https://github.com/papercodeabc755/STMoE/blob/main/STMoE-2_test.ipynb).
+Test notebook are [STMoE-1](https://github.com/papercodeabc/STMoE/blob/master/STMoE-1_test.ipynb) and [STMoE-2](https://github.com/papercodeabc755/STMoE/blob/master/STMoE-2_test.ipynb).
 Trained models are in `./models`.  
 You can do only test and get the following results. 
 - STMoE-1
